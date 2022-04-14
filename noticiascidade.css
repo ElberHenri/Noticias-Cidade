@@ -1,0 +1,189 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	float: left;
+}
+
+ul a {
+	/*border: 1px solid red;*/
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	margin-top: 25px;
+	padding: 10px 20px;
+	background: #b10333 url(imagens/divisor.png) no-repeat left center;
+}
+
+ul #atual a {
+	background: none;
+}
+
+.menuhorizontal a:hover {
+	background-color: #70022b;
+	background-image: none;
+}
+
+h2 {
+	width: 200px;
+	color: white;
+	background-color: #437fbd;
+	border-radius: 3px;
+	padding: 5px;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h3 {
+	width: 200px;
+	color: white;
+	background-color: #437fbd;
+	border-radius: 3px;
+	margin-left: 20px;
+	padding: 5px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+ul .direito a {
+	/*border: 1px solid red;*/
+	background: #fff;
+	margin-top: 12px;
+	margin-left: 25px;
+	color: black;
+	text-align: center;
+	float: none;
+	display: block;
+}
+
+ul .direito a:hover {
+	color: gray;
+}
+
+ul li a:hover {
+	background: url(imagens/marcador.png) no-repeat left center;
+}
+
+input {
+	margin-left: 20px;
+}
+
+em {
+	margin-left: 20px;
+}
+
+img {
+	background-size: 20px;
+}
+
+.boxdigitar {
+	width: 120px;
+	height: 20px;
+}
+
+.button {
+	padding: 5px;
+	background: #b10333;
+	color: white;
+}
+
+#centrotopo {
+	width: 670px;
+	height: 200px;
+	border: 1px solid red;
+	margin-left: 290px;
+	margin-top: 10px;
+	position: absolute;
+	z-index: 2;
+}
+
+.detalhetopo {
+	border: 1px solid red;
+	position: absolute;
+	z-index: 1;	
+	left: 890px;
+}
+
+#topo #centrotopo #atual a {
+	background-color: #de003e;
+}
+
+#topo {
+	height: 230px;
+	border: 1px solid red;
+	background: url(imagens/fundo.png);
+}
+
+#conteinermeio {
+	border: 1px solid red;
+	margin-top: 40px;
+	margin-left: 140px;
+	width: 900px;
+	height: 900px;
+}
+
+
+.esquerdoentrevistas {
+	font-family: "Lucida Console", monospace, sans-serif;
+	/*border: 1px solid black;*/
+	background: #fff;
+	width: 85%;
+	height: 400px;
+	margin-left: 20px;
+	margin-top: 15px;
+	float: left;
+}
+
+
+.background1{
+	/*border: 1px solid red;*/
+	margin-top: 10px;
+	margin-left: 15px;
+	width: 295px;
+	height: 480px;
+	padding-top: 1px;
+	background: url(imagens/fundo-caixa.png);
+	float: left;
+}
+
+#background2 {
+	margin-left: 15px;
+	margin-top: 20px;
+	background: url(imagens/fundo-caixa.png);
+	width: 280px;
+	height: 200px;
+	clear: left;
+}
+
+.fundoform {
+	width: 200px;
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 20px;
+	border-radius: 5px;
+	background: #fff;
+}
+
+#backgroundconteudo {
+	border: 1px solid red;
+	width: 150px;
+	background: url(imagens/fundo-caixa.png);
+}
+
+.medidaconteudo {
+	width: 200px;
+	height: 100px;
+	background: #fff;
+}
+
